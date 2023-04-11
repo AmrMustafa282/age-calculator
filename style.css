@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #2323;
+
+}
+.dataBox
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    
+    gap: 10px;
+}
+.ageBox
+{
+    margin-top: 60px;
+}
+#date
+{
+    text-align: center;
+    color: black;
+    height: 38px;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+}
+span
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+    
+}
